@@ -1,0 +1,84 @@
+---
+title: "R Markdown Bicimlendirme"
+author: "D.Can Oğuz"
+date: "8 Haziran 2019"
+output: 
+  html_document: 
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Numaralandirma
+
+Numaralandirma icin diyez isareti kullanilir. Bu isarette # en buyuk baslik budur.
+
+Ornegin iki tane kullanildiginda ## bu ana basligin alt basligi olarak algilanir.
+
+
+## Bu numaralandirmanin alt basligidir
+
+## Numaralandirma ikinci alt baslik
+
+
+# Italik yazma 
+
+
+*bu bir italik yazidir*
+
+baska yolu var mi? var oda _budur_
+
+# Kalin yazi yazma 
+
+
+**bu bir kalin yazidir**
+
+baska yolu var mi? var oda __budur__
+
+# Ustunu Cizme 
+
+
+~~ustun cizildi gardass~~
+
+# Link Verme
+
+
+[Bu link benim github hesabima gider.](https://github.com/denizcanoguz)
+
+
+
+# Tireleme
+
+--
+
+
+---
+
+...
+
+
+
+
+#Menuleme
+
+* menu1
+* menu2
+
+1. menu bu 
+2. menu buuu
+
+
+
+#Denkem Ekleme
+
+$A= \pi*r^{2}$
+
+
+#Resim Ekleme
+
+
+image: ![](1.jpg)
+
